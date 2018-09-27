@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84853A86215D5CE100F5FA09 /* ParkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84853A85215D5CE100F5FA09 /* ParkCell.swift */; };
+		84853A88215D5E1200F5FA09 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84853A87215D5E1200F5FA09 /* Park.swift */; };
+		84853A8A215D5F8400F5FA09 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84853A89215D5F8400F5FA09 /* SampleData.swift */; };
 		84A707FA215424A700A56BD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A707F9215424A700A56BD0 /* AppDelegate.swift */; };
 		84A707FF215424A700A56BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A707FD215424A700A56BD0 /* Main.storyboard */; };
 		84A70802215424A700A56BD0 /* ECParkFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A70800215424A700A56BD0 /* ECParkFinder.xcdatamodeld */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84853A85215D5CE100F5FA09 /* ParkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkCell.swift; sourceTree = "<group>"; };
+		84853A87215D5E1200F5FA09 /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		84853A89215D5F8400F5FA09 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		84A707F6215424A700A56BD0 /* ECParkFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECParkFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A707F9215424A700A56BD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A707FE215424A700A56BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,9 +62,12 @@
 		84A707F8215424A700A56BD0 /* ECParkFinder */ = {
 			isa = PBXGroup;
 			children = (
+				84853A85215D5CE100F5FA09 /* ParkCell.swift */,
+				84853A87215D5E1200F5FA09 /* Park.swift */,
 				84A707F9215424A700A56BD0 /* AppDelegate.swift */,
 				84A707FD215424A700A56BD0 /* Main.storyboard */,
 				84EE029C215AC75E00F7D634 /* ParkTableViewController.swift */,
+				84853A89215D5F8400F5FA09 /* SampleData.swift */,
 				84A70803215424A800A56BD0 /* Assets.xcassets */,
 				84A70805215424A800A56BD0 /* LaunchScreen.storyboard */,
 				84A70808215424A800A56BD0 /* Info.plist */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EE029D215AC75E00F7D634 /* ParkTableViewController.swift in Sources */,
+				84853A8A215D5F8400F5FA09 /* SampleData.swift in Sources */,
 				84A707FA215424A700A56BD0 /* AppDelegate.swift in Sources */,
 				84A70802215424A700A56BD0 /* ECParkFinder.xcdatamodeld in Sources */,
+				84853A88215D5E1200F5FA09 /* Park.swift in Sources */,
+				84853A86215D5CE100F5FA09 /* ParkCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
