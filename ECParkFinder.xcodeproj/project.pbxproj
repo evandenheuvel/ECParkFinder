@@ -16,6 +16,7 @@
 		84A70804215424A800A56BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A70803215424A800A56BD0 /* Assets.xcassets */; };
 		84A70807215424A800A56BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A70805215424A800A56BD0 /* LaunchScreen.storyboard */; };
 		84EE029D215AC75E00F7D634 /* ParkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE029C215AC75E00F7D634 /* ParkTableViewController.swift */; };
+		88A4146D2163F157007ACF6C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A4146C2163F157007ACF6C /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		84A70806215424A800A56BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A70808215424A800A56BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EE029C215AC75E00F7D634 /* ParkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkTableViewController.swift; sourceTree = "<group>"; };
+		88A4146C2163F157007ACF6C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				84853A87215D5E1200F5FA09 /* Park.swift */,
 				84A707F9215424A700A56BD0 /* AppDelegate.swift */,
 				84A707FD215424A700A56BD0 /* Main.storyboard */,
+				88A4146C2163F157007ACF6C /* MapViewController.swift */,
 				84EE029C215AC75E00F7D634 /* ParkTableViewController.swift */,
 				84853A89215D5F8400F5FA09 /* SampleData.swift */,
 				84A70803215424A800A56BD0 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 				84A70802215424A700A56BD0 /* ECParkFinder.xcdatamodeld in Sources */,
 				84853A88215D5E1200F5FA09 /* Park.swift in Sources */,
 				84853A86215D5CE100F5FA09 /* ParkCell.swift in Sources */,
+				88A4146D2163F157007ACF6C /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

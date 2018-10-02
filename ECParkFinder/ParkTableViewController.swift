@@ -7,17 +7,28 @@
 //
 
 import UIKit
+import CoreLocation
+import MapKit
 
 class ParkTableViewController: UITableViewController {
     
     var parks = SampleData.generateParkData()
-    
+    let locationmanager = CLLocationManager()
+    let mapViewController = MapViewController()
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        mapViewController.locationStuff()
+        
+//        let currentLocation = CLLocation(latitude: <#T##CLLocationDegrees#>, longitude: <#T##CLLocationDegrees#>)
+//        let parkLocation = CLLocation(latitude:, longitude: <#T##CLLocationDegrees#>)
+        
+       
     }
-
+ 
 }
+
 
 // MARK: - UITableViewDataSource
 extension ParkTableViewController {
@@ -33,4 +44,5 @@ extension ParkTableViewController {
         cell.park = park
         return cell
     }
+        
 }

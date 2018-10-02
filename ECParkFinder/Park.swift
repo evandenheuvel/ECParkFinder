@@ -7,9 +7,22 @@
 //
 
 import Foundation
+import CoreLocation
 
 struct Park {
     // MARK: - Properties
     var parkName: String
-    var distance: String
+    var lat: Double
+    var long: Double
+    
+    func getDistance(currentLocation: CLLocation) -> Double {
+        
+        let parkLocation = CLLocation(latitude: self.lat, longitude: self.long)
+        let distanceInMeters = currentLocation.distance(from: parkLocation)
+        let distanceinMiles = distanceInMeters * 0.00062137
+        
+        return distanceinMiles
+    }
 }
+
+
