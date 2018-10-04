@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import CoreLocation
 
 class ParkCell: UITableViewCell {
     
@@ -22,14 +21,12 @@ class ParkCell: UITableViewCell {
         didSet {
             guard let park = park else { return }
             
-            let locationmanager = CLLocationManager()
-            var location = [Int:Double]()
-            
             parkNameLabel.text = park.parkName
-            //TODO: - FIGURE THIS SHIT OuT
-//            distanceLabel.text = "Distance: \(String(format:"%0.2f", arguments:park.getDistance(currentLocation: CLLocation(latitude: location[1]!, longitude: location[2]!)))) mi."
+            distanceLabel.text = "Distance: \(String(format:"%0.2f", park.distance)) mi"
             
     
-    }
+        }
 
+    }
+    
 }

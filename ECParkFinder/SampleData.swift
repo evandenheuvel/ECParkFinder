@@ -13,15 +13,12 @@ final class SampleData {
     static func generateParkData() -> [Park] {
         
         var parks = [
-            Park(parkName: "Phoenix Park", distance: "4.8", lat: 44.811348, long: -91.498497),
-            Park(parkName: "Owen", distance: "1.2", lat: 45.811348, long: -90.498497),
-            Park(parkName: "Mt. Simon", distance: "2.6", lat: 43.811348, long: -92.498497)
+            Park(parkName: "Phoenix Park", distance: 0, lat: 44.8130, long: -91.5042),
+            Park(parkName: "Owen", distance: 0, lat: 44.8051, long: -91.4995),
+            Park(parkName: "Mt. Simon", distance: 0, lat: 44.8304, long: -91.5025)
         ]
         
-       parks.sort {
-            ($0.distance, $0.parkName) <
-                ($1.distance, $1.parkName)
-        }
+       
         
         return parks
             

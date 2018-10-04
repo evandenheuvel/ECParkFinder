@@ -12,6 +12,7 @@ import CoreLocation
 struct Park {
     // MARK: - Properties
     var parkName: String
+    var distance: Double
     var lat: Double
     var long: Double
     
