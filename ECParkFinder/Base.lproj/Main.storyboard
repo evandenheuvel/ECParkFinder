@@ -27,26 +27,29 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ParkName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhm-8l-pDY">
-                                            <rect key="frame" x="16" y="11" width="133" height="38"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                            <color key="textColor" red="0.0" green="0.46148397019999998" blue="0.02393057401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzi-qu-ZYw">
-                                            <rect key="frame" x="282" y="11" width="77" height="38"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                            <color key="textColor" red="0.0" green="0.67140948830000002" blue="0.034816408559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tOB-iC-WoG">
+                                            <rect key="frame" x="16" y="11" width="343" height="38"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ParkName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhm-8l-pDY">
+                                                    <rect key="frame" x="0.0" y="1" width="133" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                    <color key="textColor" red="0.0" green="0.46148397019999998" blue="0.02393057401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzi-qu-ZYw">
+                                                    <rect key="frame" x="266" y="7" width="77" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.0" green="0.67140948830000002" blue="0.034816408559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="zzi-qu-ZYw" firstAttribute="trailing" secondItem="GNy-yN-tSZ" secondAttribute="trailingMargin" id="9da-Fw-e65"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="zzi-qu-ZYw" secondAttribute="bottom" id="9lk-SN-0fB"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="qhm-8l-pDY" secondAttribute="bottom" id="Rjw-Lt-kcV"/>
-                                        <constraint firstItem="zzi-qu-ZYw" firstAttribute="top" secondItem="GNy-yN-tSZ" secondAttribute="topMargin" id="cKl-ky-bsD"/>
-                                        <constraint firstItem="qhm-8l-pDY" firstAttribute="leading" secondItem="GNy-yN-tSZ" secondAttribute="leadingMargin" id="g3O-mG-D9B"/>
-                                        <constraint firstItem="qhm-8l-pDY" firstAttribute="top" secondItem="GNy-yN-tSZ" secondAttribute="topMargin" id="vgn-qO-BAc"/>
+                                        <constraint firstItem="tOB-iC-WoG" firstAttribute="top" secondItem="GNy-yN-tSZ" secondAttribute="topMargin" id="4XS-il-3C5"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="tOB-iC-WoG" secondAttribute="trailing" id="Xbs-Cj-JZS"/>
+                                        <constraint firstItem="tOB-iC-WoG" firstAttribute="leading" secondItem="GNy-yN-tSZ" secondAttribute="leadingMargin" id="YIT-z3-pYZ"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="tOB-iC-WoG" secondAttribute="bottom" id="gJE-tk-0lu"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
